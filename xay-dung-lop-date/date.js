@@ -10,6 +10,7 @@ class Date {
     getDay() {
         return this.day;
     }
+
     getMonth() {
         return this.month;
     }
@@ -30,10 +31,11 @@ class Date {
         this.month = month;
         this.year = year;
     }
-    tostring() {
+    toString() {
         return this.day + "/" + this.month + "/" + this.year;
     }
 }
 let date = new Date(22, 7, 2021);
-document.write(date.tostring())
+// document.write(date.setDay(30))
+document.write(date.getDay())
 
