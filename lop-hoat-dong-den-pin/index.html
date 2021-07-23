@@ -6,27 +6,13 @@
 </head>
 <body>
     <button type="button" onclick="lame()">Button</button>
+    <span id="energy"></span>
+    <br>
+    <br>
+    <button type="button" onclick="charging()">Sạc Pin</button>
 
     <script src="lamp.js"></script>
     <script src="battery.js"></script>
-    <script>
-        let myBattery = new Battery(10);
-        let myLamp = new Lamp(myBattery, false);
-        function lame() {
-            if (myLamp.status) {
-                if (myBattery.energy) {
-                    myLamp.turnOn();
-                    myLamp.lightLame();
-                    myBattery.useBattery();
-                } else {
-                    alert("Hết pin!");
-                }
-            } else {
-                myLamp.turnOff();
-                myLamp.lightLame();
-            }
-        }
-
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>

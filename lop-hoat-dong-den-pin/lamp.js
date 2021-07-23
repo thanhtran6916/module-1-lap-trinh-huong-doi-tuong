@@ -1,27 +1,19 @@
 class Lamp {
-    battery;
     status;
-
-    constructor(battery, status) {
-        this.battery = battery;
+    battery;
+    constructor(status, Battery) {
         this.status = status;
-    }
-
-    lightLame() {
-        if (this.status) {
-            alert("Đèn đã tắt");
-        } else {
-            alert("Đèn đang sáng");
-        }
+        this.battery = Battery;
     }
 
     turnOn() {
+        alert("Đã bật đèn");
         this.status = true;
-        this.lightLame()
+        this.battery.useEnergy()
     }
 
     turnOff() {
+        alert("Đã tắt đèn");
         this.status = false;
-        this.lightLame();
     }
 }

@@ -1,21 +1,18 @@
 class Battery {
     energy;
-
     constructor(energy) {
         this.energy = energy;
     }
 
-    getBattery() {
+    getEnergy() {
         return this.energy;
     }
 
-    setBattery(energy) {
-        return this.energy = energy;
+    setEnergy(chargeEnergy) {
+        this.energy = chargeEnergy;
     }
-    
-    useBattery() {
-        if (this.energy) {
-            this.energy--;
-        }
+
+    useEnergy() {
+        this.energy--;
     }
 }
