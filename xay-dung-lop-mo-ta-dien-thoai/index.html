@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="nokia">
+        <h1>Nokia</h1>
+        <form action="">
+            <input type="checkbox">
+            <span>
+                Mức pin
+                <span id="battery-nokia"></span>
+            </span>
+            <br>
+            <input id="input-data-nokia" type="text">
+            <br>
+            <button type="button" onclick="SendToIphone()">Send</button>
+            <button type="button" onclick="takeToIphone()">Hộp thư đến</button>
+            <button type="button" onclick="getNokiaMemoryAreaExport()">Hộp thư đi</button>
+            <div>
+                Hộp thư đến
+                <p id="input-nokia"></p>
+            </div>
+            <div>
+                Hộp thư đi
+                <p id="output-nokia"></p>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div class="nokia">
+        <h1>Iphone</h1>
+        <form action="">
+            <input type="checkbox">
+            <span>
+                Mức pin
+                <span id="battery-iphone"></span>
+            </span>
+            <br>
+            <input id="input-data-iphone" type="text">
+            <br>
+            <button type="button" onclick="SendToNokia()">Send</button>
+            <button type="button" onclick="takeToNokia()">Hộp thư đến</button>
+            <button type="button" onclick="getiphoneMemoryAreaExport()">Hộp thư đi</button>
+            <div>
+                Hộp thư đến
+                <p id="input-iphone"></p>
+            </div>
+            <div>
+                Hộp thư đi
+                <p id="output-iphone"></p>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="mobile.js"></script>
+</body>
+</html>

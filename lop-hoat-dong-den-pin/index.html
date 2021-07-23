@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button type="button" onclick="lame()">Button</button>
+
+    <script src="lamp.js"></script>
+    <script src="battery.js"></script>
+    <script>
+        let myBattery = new Battery(10);
+        let myLamp = new Lamp(myBattery, false);
+        function lame() {
+            if (myLamp.status) {
+                if (myBattery.energy) {
+                    myLamp.turnOn();
+                    myLamp.lightLame();
+                    myBattery.useBattery();
+                } else {
+                    alert("Hết pin!");
+                }
+            } else {
+                myLamp.turnOff();
+                myLamp.lightLame();
+            }
+        }
+
+    </script>
+</body>
+</html>
