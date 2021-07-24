@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9e74884-4bc8-4f9e-b134-c90166b495ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cong-tac-va-bong-den/Lamp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cong-tac-va-bong-den/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cong-tac-va-bong-den/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cong-tac-va-bong-den/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-di-chuyen-doi-tương/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-di-chuyen-doi-tương/main.js" afterDir="false" />
+    <list default="true" id="0603aa0f-0b29-4904-ade7-ed5d33ba4818" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/meo-bat-chuot/cat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meo-bat-chuot/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meo-bat-chuot/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meo-bat-chuot/rat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-ca-ro/caro.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/caro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-ca-ro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-ca-ro/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-ca-ro/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/player.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1vkAB2oa1G4euDHcyRe5bc2b5B6" />
+  <component name="ProjectId" id="1vkrfFkh6nUjGqnd8DFDWYv8VDQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,12 +43,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9e74884-4bc8-4f9e-b134-c90166b495ec" name="Default Changelist" comment="" />
-      <created>1627095574466</created>
+      <changelist id="0603aa0f-0b29-4904-ade7-ed5d33ba4818" name="Default Changelist" comment="" />
+      <created>1627117029996</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1627095574466</updated>
-      <workItem from="1627095576645" duration="1410000" />
+      <updated>1627117029996</updated>
+      <workItem from="1627117032215" duration="100000" />
+      <workItem from="1627117463188" duration="2556000" />
     </task>
     <servers />
   </component>
@@ -62,5 +66,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
