@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện chuột</title>
+    <style>
+        img {
+            width: 100px;
+            height: auto;
+            position: relative;
+            left: 0px;
+            right: 0px;
+        }
+    </style>
+
+</head>
+<body>
+    <img id="ball" style="position: relative; left: 100px" src="./bong-da-dong-luc-fifa-uhv-207.07.jpg" alt="">
+    <p>Click button below to move the image to right</p>
+    <button type="button" onclick="isClick()">Click me</button>
+
+    <script>
+        // function init() {
+        //     ball.style.position = "relative";
+        //     ball.style.left = "0";
+        // }
+
+        function isClick() {
+            let ball = document.getElementById("ball");
+            ball.style.left = parseInt(ball.style.left) + 10 + "px";
+            console.log(ball.style.left);
+        }
+
+        // window.onload = init();
+    </script>
+</body>
+</html>

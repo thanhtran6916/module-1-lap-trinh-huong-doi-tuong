@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện bàn phím</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="hero"></div>
+
+    <script>
+       class Hero {
+           width;
+           height;
+           positionX;
+           positionY;
+           constructor(width, height, x, y) {
+               this.width = width;
+               this.height = height;
+               this.positionX = x;
+               this.positionY = y;
+           }
+           imgHero() {
+               return `<img src="./images.png" alt="" width="${this.width}" height="${this.height}"
+                style="position: relative; top: ${this.positionY}px; left: ${this.positionX}px">`
+           }
+           moveLeft() {
+               if (this.positionX > 0) {
+                   this.positionX -= 10;
+               }
+           }
+           moveUp() {
+               if (this.positionY > 0) {
+                   this.positionY -= 10;
+               }
+           }
+           moveRight() {
+               if (this.positionX < window.innerWidth - this.width) {
+                   this.positionX += 10;
+               }
+           }
+           moveDown() {
+               if (this.positionY < window.innerHeight - this.height) {
+                   this.positionY += 10;
+               }
+           }
+       }
+
+       let nobita = new Hero(100, 100, 200, 200);
+       document.getElementById("hero").innerHTML = nobita.imgHero();
+
+       function move() {
+           switch (event.keyCode) {
+               case 37:
+                   nobita.moveLeft();
+                   break;
+               case 38:
+                   nobita.moveUp();
+                   break;
+               case 39:
+                   nobita.moveRight();
+                   break;
+               case 40:
+                   nobita.moveDown();
+                   break;
+           }
+           document.getElementById("hero").innerHTML = nobita.imgHero();
+       }
+       document.addEventListener("keydown", move);
+    </script>
+
+</body>
+</html>
