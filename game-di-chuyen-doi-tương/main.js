@@ -1,6 +1,4 @@
 let myPikachu = new Pikachu(150, 150, 500, 200);
-// let figurePikachu = document.getElementById("game").value;
-// figurePikachu += myPikachu.figureElement();
 function start() {
     document.getElementById("game").innerHTML = myPikachu.figureElement();
 }
@@ -25,4 +23,4 @@ function move() {
     start();
 }
 
-window.addEventListener("keydown", move)
+document.addEventListener("keydown", move)
