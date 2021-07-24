@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0603aa0f-0b29-4904-ade7-ed5d33ba4818" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meo-bat-chuot/cat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meo-bat-chuot/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meo-bat-chuot/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meo-bat-chuot/rat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remote-dieu-khien-tivi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remote-dieu-khien-tivi/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remote-dieu-khien-tivi/remote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remote-dieu-khien-tivi/tivi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-ca-ro/caro.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/caro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-ca-ro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-ca-ro/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-ca-ro/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/player.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627117029996</updated>
       <workItem from="1627117032215" duration="100000" />
-      <workItem from="1627117463188" duration="2556000" />
+      <workItem from="1627117463188" duration="5002000" />
     </task>
     <servers />
   </component>
