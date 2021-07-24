@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0603aa0f-0b29-4904-ade7-ed5d33ba4818" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/bong-da-dong-luc-fifa-uhv-207.07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/nobita.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/su-kien-ban-phim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/su-kien-chuot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627117029996</updated>
       <workItem from="1627117032215" duration="100000" />
-      <workItem from="1627117463188" duration="5725000" />
+      <workItem from="1627117463188" duration="6038000" />
     </task>
     <servers />
   </component>
