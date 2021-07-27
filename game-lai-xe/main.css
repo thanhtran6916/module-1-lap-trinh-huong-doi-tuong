@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+canvas {
+    display: block;
+    margin: 70px auto 0;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 60px;
+    color: #003bfe;
+    font-family: Tahoma;
+    position: absolute;
+    top: 54px;
+    right: 360px;
+}

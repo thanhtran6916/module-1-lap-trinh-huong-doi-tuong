@@ -16,6 +16,7 @@ class Obstacle {
     }
 
     moveDown() {
-        this.y += 5;
+        this.y += 1;
     }
+
 }

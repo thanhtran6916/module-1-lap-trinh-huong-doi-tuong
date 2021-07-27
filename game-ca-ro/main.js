@@ -3,13 +3,14 @@ let player2 = new Player("O", false);
 
 let myArray = [];
 let rowMyArray = [];
-for (let i = 1; i <= 10; i++) {
-    for (let j = 1; j <= 10; j++) {
-        rowMyArray[j - 1] = `<div id="${i}${j}" class="row" onclick="ticker(${i}${j})"></div>`;
+for (let i = 0; i <= 10; i++) {
+    for (let j = 0; j <= 10; j++) {
+        rowMyArray[j] = `<div id="${i},${j}" class="row" onclick="ticker(${i}${j})"></div>`;
     }
-    myArray[i - 1] = rowMyArray;
+    myArray[i] = rowMyArray;
     rowMyArray = [];
 }
+console.log(myArray[1][1]);
 
 let data = "";
 for (let i = 0; i < myArray.length; i++) {
