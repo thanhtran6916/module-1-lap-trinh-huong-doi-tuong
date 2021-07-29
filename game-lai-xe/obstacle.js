@@ -18,5 +18,8 @@ class Obstacle {
     moveDown() {
         this.y += 1;
     }
+    moveUp() {
+        this.y += 50;
+    }
 
 }
