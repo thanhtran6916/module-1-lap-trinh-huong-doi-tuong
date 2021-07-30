@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="668b2882-a891-4993-86a6-2cddfaae8c84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game-ca-ro/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/caro/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/caro/caro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/caro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/caro/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/caro/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/caro/player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-ca-ro/caro.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/caro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-ca-ro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-ca-ro/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-ca-ro/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-lai-xe/obstacle.js" beforeDir="false" afterPath="$PROJECT_DIR$/game-lai-xe/obstacle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-ca-ro/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/game-ca-ro/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,10 +44,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,7 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1627524726747</updated>
       <workItem from="1627524728271" duration="21733000" />
-      <workItem from="1627566569906" duration="16164000" />
+      <workItem from="1627566569906" duration="16648000" />
+      <workItem from="1627607510229" duration="17754000" />
     </task>
     <servers />
   </component>
